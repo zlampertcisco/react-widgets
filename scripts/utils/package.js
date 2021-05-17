@@ -157,7 +157,7 @@ function getWidgetPackages() {
     .filter((pkgPath) => {
       const pkgName = require(path.resolve(pkgPath, 'package.json')).name;
 
-      return pkgName.startsWith('@ciscospark/widget') && !pkgName.endsWith('-demo');
+      return pkgName.startsWith('@webex/widget') && !pkgName.endsWith('-demo');
     });
 }
 
