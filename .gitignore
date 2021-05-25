@@ -5,7 +5,7 @@
 /node_modules
 .env
 npm-debug*
-packages/**/es/*
+# packages/**/es/*
 packages/**/cjs/*
 packages/node_modules/@webex/**/node_modules/*
 .tmp/*
